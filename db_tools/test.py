@@ -10,6 +10,7 @@ from db_tools.import_user import RegistUser
 from db_tools.stock_goods import StockGoods
 from db_tools.create_order_test import CreateOrder
 from db_tools.import_address_update_userinfo import AddAdress
+from db_tools.random_delivery import RandomDelivery
 
 if __name__ == "__main__":
 
@@ -39,7 +40,9 @@ if __name__ == "__main__":
     address = AddAdress()
     #用户下单
     order = CreateOrder()
-
+    #随机发货
+    delivery = RandomDelivery()
+    
     cate.addcate()
     goods.addgoods()
     tab.updattabadndgoods()
@@ -54,4 +57,4 @@ if __name__ == "__main__":
     address.addadress()
     for i in range(10):
         order.createorder()
-
+    delivery.randomdelivery()
