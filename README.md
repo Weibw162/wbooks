@@ -34,5 +34,4 @@
 + [更新用户信息并增加用户收货地址](https://github.com/Weibw162/wbooks/tree/master/db_tools/import_address_update_userinfo.py)
 + [随机加入购物车并生成订单](https://github.com/Weibw162/wbooks/tree/master/db_tools/create_order_test.py)
 + [随机对订单发货](https://github.com/Weibw162/wbooks/tree/master/db_tools/random_delivery.py)
-+ [聚合脚本（一次性完成以上所有测试）](https://github.com/Weibw162/wbooks/tree/master/db_tools/test.py)
-+ [](https://github.com/Weibw162/wbooks/tree/master/db_tools/)
++ [聚合脚本（一次性完成以上所有数据的导入）](https://github.com/Weibw162/wbooks/tree/master/db_tools/test.py)
