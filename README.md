@@ -11,9 +11,28 @@
 
 后台管理采用django-simpleui,Vue+Element-ui的现代主题：[后台开源地址](https://github.com/newpanjing/simpleui)
 
-## 测试数据
+## 数据
 + [图书类别数据](https://github.com/Weibw162/wbooks/blob/master/db_tools/data/book_categories.py)
 + [图书数据](https://github.com/Weibw162/wbooks/blob/master/db_tools/data/book_data.py)
++ [热搜词条](https://github.com/Weibw162/wbooks/blob/master/db_tools/data/hotsearch_data.py)
++ [首页广告数据](https://github.com/Weibw162/wbooks/blob/master/db_tools/data/indexAd_data.py)
++ [轮播广告](https://github.com/Weibw162/wbooks/blob/master/db_tools/data/product_data.py)
++ [短信验证码数据](https://github.com/Weibw162/wbooks/blob/master/db_tools/data/verifycodes_data.py)
++ [收货地址数据](https://github.com/Weibw162/wbooks/blob/master/db_tools/data/address_data.py)
 
-## 测试脚本
+## 导入数据
 + [导入图书类别](https://github.com/Weibw162/wbooks/blob/master/db_tools/import_book_categories.py)
++ [导入图书数据](https://github.com/Weibw162/wbooks/tree/master/db_tools/import_book_data.py)
++ [设置导航、随机设定新品及热销](https://github.com/Weibw162/wbooks/tree/master/db_tools/add_tab_new_hot.py)
++ [导入热搜词条](https://github.com/Weibw162/wbooks/tree/master/db_tools/import_hotsearch.py)
++ [设置首页广告](https://github.com/Weibw162/wbooks/tree/master/db_tools/import_indexad.py)
++ [导入轮播图](https://github.com/Weibw162/wbooks/tree/master/db_tools/import_product.py)
++ [导入短信验证码数据](https://github.com/Weibw162/wbooks/tree/master/db_tools/import_verifycodes.py)
++ [生成用户](https://github.com/Weibw162/wbooks/tree/master/db_tools/import_user.py)
++ [随机添加用户收藏](https://github.com/Weibw162/wbooks/tree/master/db_tools/import_colection.py)
++ [图书进货](https://github.com/Weibw162/wbooks/tree/master/db_tools/stock_goods.py)
++ [更新用户信息并增加用户收货地址](https://github.com/Weibw162/wbooks/tree/master/db_tools/import_address_update_userinfo.py)
++ [随机加入购物车并生成订单](https://github.com/Weibw162/wbooks/tree/master/db_tools/create_order_test.py)
++ [随机对订单发货](https://github.com/Weibw162/wbooks/tree/master/db_tools/random_delivery.py)
++ [聚合脚本（一次性完成以上所有测试）](https://github.com/Weibw162/wbooks/tree/master/db_tools/test.py)
++ [](https://github.com/Weibw162/wbooks/tree/master/db_tools/)
