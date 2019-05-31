@@ -9,7 +9,7 @@
 
 项目API演示地址：[API](http://api.weisapp.top)
 
-后台管理采用django-simpleui,Vue+Element-ui的现代主题：[后台开源地址](https://github.com/newpanjing/simpleui)
+后台管理采用django-simpleui,一个Vue+Element-ui的现代主题：[后台开源地址](https://github.com/newpanjing/simpleui)
 
 ## 数据
 + [图书类别数据](https://github.com/Weibw162/wbooks/blob/master/db_tools/data/book_categories.py)
