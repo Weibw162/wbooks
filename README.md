@@ -7,4 +7,13 @@
 
 项目演示地址：[http://wbooks.weisapp.top](http://wbooks.weisapp.top)
 
+项目API演示地址：[API](http://api.weisapp.top)
+
 后台管理采用django-simpleui,Vue+Element-ui的现代主题：[后台开源地址](https://github.com/newpanjing/simpleui)
+
+## 测试数据
++ [图书类别数据](https://github.com/Weibw162/wbooks/blob/master/db_tools/data/book_categories.py)
++ [图书数据](https://github.com/Weibw162/wbooks/blob/master/db_tools/data/book_data.py)
+
+## 测试脚本
++ [导入图书类别](https://github.com/Weibw162/wbooks/blob/master/db_tools/import_book_categories.py)
